@@ -8,12 +8,12 @@
  */
 int main(void)
 {
-char lowerandupper[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+char alpha[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
 	for (i = 0; i < 52; i++)
 	{
-		putchar(lowerandupper[i]);
+		putchar(alpha[i]);
 	}
 	putchar('\n');
 	return (0);
