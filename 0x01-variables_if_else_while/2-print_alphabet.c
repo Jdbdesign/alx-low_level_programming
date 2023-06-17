@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char lowercase[26] = "alphabet";
+	char lowercase[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
 	for (i = 0; i < 26; i++)
