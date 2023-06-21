@@ -11,7 +11,6 @@ int main(void)
 {
 	long int a = 1, b = 2, next;
 	long int sum = 2;
-	
 	while (1)
 	{
 		next = a + b;
