@@ -31,7 +31,7 @@ int _atoi(char *s)
 			if (b % 2)
 				num = -num;
 			n = n * 10 + num;
-			f = 1;
+			d = 1;
 			if (s[a + 1] < '0' || s[a + 1] > '9')
 				break;
 			d = 0;
